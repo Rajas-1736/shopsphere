@@ -1,0 +1,119 @@
+.success-page {
+  min-height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f8f9fa;
+
+  padding: 20px;
+}
+
+.success-card {
+  background: white;
+
+  max-width: 700px;
+  width: 100%;
+
+  padding: 50px 30px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  box-shadow: 0 4px 20px
+    rgba(0, 0, 0, 0.08);
+}
+
+.success-icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.success-title {
+  color: #16a34a;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.success-subtext {
+  color: #6b7280;
+  margin-bottom: 35px;
+}
+
+.success-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.shop-btn-success {
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #111;
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.shop-btn-success:hover {
+  background: #2563eb;
+}
+
+.orders-btn {
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #16a34a;
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.orders-btn:hover {
+  background: #15803d;
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .success-card {
+    padding: 35px 20px;
+  }
+
+  .success-title {
+    font-size: 28px;
+  }
+
+  .success-message {
+    font-size: 18px;
+  }
+
+  .success-icon {
+    font-size: 60px;
+  }
+
+  .success-buttons {
+    flex-direction: column;
+  }
+
+  .shop-btn-success,
+  .orders-btn {
+    width: 100%;
+  }
+}
